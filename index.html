@@ -2,53 +2,221 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Dad’s Christmas Gift</title>
+  <title>Night Vision Binoculars – Product Overview</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: radial-gradient(circle at top, #0b1d26 0%, #05080a 60%);
+      color: #e6eef3;
+      line-height: 1.45;
+    }
+
+    header {
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      opacity: 0.75;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    .product {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    @media (min-width: 900px) {
+      .product {
+        grid-template-columns: 1fr 1.2fr;
+        align-items: center;
+      }
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #1c2b33;
+      background: #000;
+    }
+
+    h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      opacity: 0.9;
+      margin-bottom: 1.5rem;
+    }
+
+    .features {
+      list-style: none;
+      display: grid;
+      gap: 0.6rem;
+      margin-bottom: 2rem;
+    }
+
+    .features li::before {
+      content: '▸';
+      margin-right: 0.6rem;
+      color: #3fd2ff;
+    }
+
+    .features li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .use-cases {
+      background: linear-gradient(180deg, #07141b, #040709);
+      border-top: 1px solid #122028;
+      border-bottom: 1px solid #122028;
+    }
+
+    .use-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 800px) {
+      .use-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .card {
+      background: #071c26;
+      border: 1px solid #12303d;
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .card h3 {
+      margin-bottom: 0.6rem;
+      font-size: 1.1rem;
+      color: #9be6ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.9rem 1.8rem;
+      border-radius: 6px;
+      background: #3fd2ff;
+      color: #001018;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <header class="hero">
-    <h1>Next‑Gen Wildlife Night Vision</h1>
-    <p class="subtitle">A futuristic gift for Dad</p>
-  </header>
 
-  <section class="product">
-    <div class="image-wrapper">
-      <img src="https://m.media-amazon.com/images/I/619Xg2Nm24L._AC_SY300_SX300_QL70_ML2_.jpg"
-           alt="Nouaksy Night Vision Binoculars" />
-    </div>
-    <div class="details">
-      <h2>Nouaksy Night Vision Binoculars</h2>
-      <p class="description">
-        Designed for low‑light wildlife viewing, these compact binoculars offer
-        real‑time viewing, recording, and long battery life—perfect for late‑night
-        backyard or trail watching.
-      </p>
-      <ul class="features">
-        <li><strong>Full night vision</strong> with 7‑level IR adjustment for total darkness.  [oai_citation:0‡Amazon](https://www.amazon.com/Binoculars-Infrared-Adjustment-Recording-Watching/dp/B0FZTP8ZK4#:~:text=,for%20both%20professionals%20and%20beginners)</li>
-        <li><strong>2.4&quot; IPS HD display</strong> for live preview, no guesswork when recording.  [oai_citation:1‡Amazon](https://www.amazon.com/Binoculars-Infrared-Adjustment-Recording-Watching/dp/B0FZTP8ZK4#:~:text=%2A%20Clearer%20View%20with%202.4,for%20both%20professionals%20and%20beginners)</li>
-        <li><strong>12× optical zoom</strong> plus digital zoom and BAK4 prism optics for clearer detail.  [oai_citation:2‡Amazon](https://www.amazon.com/Binoculars-Infrared-Adjustment-Recording-Watching/dp/B0FZTP8ZK4#:~:text=,outdoor%20exploration%2C%20or%20scenic%20observation)</li>
-        <li><strong>32 GB included</strong>, expandable to 128 GB; record photos and 1080p video.  [oai_citation:3‡Amazon](https://www.amazon.com/Binoculars-Infrared-Adjustment-Recording-Watching/dp/B0FZTP8ZK4#:~:text=,vloggers%2C%20nature%20lovers%2C%20and%20families)</li>
-        <li><strong>Up to ~9 hours</strong> continuous use with IR off, IPX7 waterproof, fogproof housing.  [oai_citation:4‡Amazon](https://www.amazon.com/Binoculars-Infrared-Adjustment-Recording-Watching/dp/B0FZTP8ZK4#:~:text=,hiking%2C%20sailing%2C%20and%20outdoor%20photography)</li>
-      </ul>
-      <a class="buy-link" href="https://www.amazon.com/dp/B0FZTP8ZK4" target="_blank" rel="noopener">
-        View or purchase on Amazon
-      </a>
-    </div>
-  </section>
+<header>
+  <h1>NIGHT VISION BINOCULARS</h1>
+  <p>Compact infrared optics designed for low‑light environments</p>
+</header>
 
-  <section class="fun-future">
-    <h2>Why this is awesome</h2>
-    <p>
-      Imagine Dad stepping out after sunset and actually seeing wildlife in the dark—
-      not just guessing. It’s tech that feels like it’s from a sci‑fi film, but
-      it’s real, portable, and ready to use right away.
+<section class="product">
+  <img src="https://m.media-amazon.com/images/I/619Xg2Nm24L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Night vision binoculars" />
+
+  <div>
+    <h2>Nouaksy Infrared Night Vision</h2>
+    <p class="description">
+      These binoculars combine infrared illumination, optical zoom, and onboard recording
+      into a single handheld device. They are built for environments with minimal ambient
+      light and wide, open sightlines.
     </p>
-  </section>
 
-  <footer class="footer">
-    <p>Gift page created for Christmas. Surprise inside. 🎁</p>
-  </footer>
+    <ul class="features">
+      <li>7‑level infrared illumination for complete darkness</li>
+      <li>2.4‑inch IPS screen for real‑time viewing</li>
+      <li>12× optical zoom with additional digital magnification</li>
+      <li>1080p video and photo capture with onboard storage</li>
+      <li>Rechargeable battery and weather‑resistant housing</li>
+    </ul>
+
+    <a class="button" href="https://www.amazon.com/dp/B0FZTP8ZK4" target="_blank" rel="noopener">View Product Listing</a>
+  </div>
+</section>
+
+<section class="use-cases">
+  <h2>What You Can Do With It</h2>
+  <div class="use-grid">
+    <div class="card">
+      <h3>Nighttime Wildlife Observation</h3>
+      <p>
+        Ideal for spotting animals that become active after sunset, especially in areas
+        with sparse vegetation, open terrain, and long sight distances.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Backyard & Perimeter Viewing</h3>
+      <p>
+        Monitor movement beyond the reach of exterior lighting, including distant fences,
+        tree lines, or open land, without disturbing the environment.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Stargazing Adjacent Exploration</h3>
+      <p>
+        Use alongside night sky viewing to explore the ground environment once lights are
+        off and eyes have adjusted to darkness.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Camping & Outdoor Travel</h3>
+      <p>
+        Useful for navigating campsites, trails, or open outdoor spaces at night without
+        relying on flashlights.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Photography & Recording</h3>
+      <p>
+        Capture nocturnal activity directly to storage for later review on a computer or
+        display.
+      </p>
+    </div>
+    <div class="card">
+      <h3>General Night Exploration</h3>
+      <p>
+        Designed for environments with clear skies, dry air, and minimal light pollution
+        where infrared visibility performs especially well.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Product overview page – informational display</p>
+</footer>
 
 </body>
 </html>
